@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: pink;
+}
+h1 {
+    font-size: 40px;
+}
+section.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.name label {
+    font-weight: bolder;
+}
+.name input {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.submit {
+    width: 100%;
+    margin-top: 25px;
+    text-align: center;
+}
+.submit button {
+    border-radius: 5px;
+    padding: 5px;
+}
+#resultado {
+    margin: 50px;
+    background-color: gray;
+    font-weight:bold;
+}
